@@ -54,6 +54,11 @@ console.log( names );
 console.log( sortRoman(names) );
 console.log( "-".repeat(20) );
 
+names = ["Swordsman I", "Sorcerer II", "Archer I", "Wizard XX", "Pikeman II", "Archer II", "Archer VI", "Pikeman VII"];
+console.log( names );
+console.log( sortRoman(names) );
+console.log( "-".repeat(20) );
+
 names = ['Alexander the Great - Archer I','Arthas - Pikeman II','Arthas - Swordsman I','Keltuzad - Wizard XX','Thrall - Sorcerer II'];
 const fixed_names = names.map( (name) => {
     let name_parts = name.split("-").map( (part) => { return part.trim() } );
